@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="namesOfSongs">
+        <item>Метель</item>
+        <item>Потерянный рай</item>
+        <item>Это всё</item>
+        <item>Батарейка</item>
+        <item>Дыхание</item>
+        <item>Оркестр</item>
+        <item>Зоопарк</item>
+        <item>Перевал</item>
+        <item>А мы не ангелы парень</item>
+        <item>Воины света</item>
+        <item>Капитал</item>
+        <item>Выхода нет</item>
+        <item>Алые паруса</item>
+        <item>Яхта, парус</item>
+        <item>Гори</item>
+        <item>Моё сердце</item>
+        <item>Муравейник</item>
+        <item>Просвистела</item>
+        <item>Я верю</item>
+        <item>Мой кот</item>
+    </string-array>
+    <string-array name="autorsOfSongs">
+        <item>ДДТ</item>
+        <item>Ария</item>
+        <item>ДДТ</item>
+        <item>Жуки</item>
+        <item>Наутилус Помпилиус</item>
+        <item>*Автор неизвестен*</item>
+        <item>Гражданская Оборона</item>
+        <item>Юрий Визбор</item>
+        <item>Алексей Пономарёв</item>
+        <item>Ляпис Трубецкой</item>
+        <item>Ляпис Трубецкой</item>
+        <item>Сплин</item>
+        <item>*Автор неизвестен*</item>
+        <item>Валентин Стрыкало</item>
+        <item>Валентин Стрыкало</item>
+        <item>Сплин</item>
+        <item>Цой</item>
+        <item>ДДТ</item>
+        <item>Ляпис Трубецкой</item>
+        <item>Green Crow</item>
+    </string-array>
+    <string-array name="textsOfSongs">
+        <item><![CDATA[
+            Коронована луной,<br>
+            Как начало высока,<br>
+            Как победа - не со мной,<br>
+            Как надежда - не легка.<br>
+            <br>
+            За окном стеной мете-ель,<br>
+            Жизнь по горло занесло,<br>
+            Сорвало финал с петель,<br>
+            Да поело все тепло.<br>
+            <br>
+            Припев:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Играй как можешь сыграй, закрой глаза и вернись<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Не пропади, но растай, да колее поклонись<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Мое окно отогрей, пусти по полю весной<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Не доживи, но созрей и будешь вечно со мной,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;И будешь вечно со мной, и будешь вечно...<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Со мной... Со мной...<br>
+            <br>
+            Ищут землю фонари,<br>
+            К небу тянется свеча.<br>
+            На снегу следы зари,<br>
+            Крылья павшего луча.<br>
+            <br>
+            Что же вьюга наливай,<br>
+            Выпьем время натощак.<br>
+            Я спою, ты в такт пролай<br>
+            О затерянных вещах.<br>
+            <br>
+            Припев:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Играй как можешь сыграй, закрой глаза и вернись<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Не пропади, но растай, да колее поклонись<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Мое окно отогрей, пусти по полю весной<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Не доживи, но созрей и будешь вечно со мной,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;И будешь вечно со мной, и будешь вечно...<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Со мной... Со мной...<br>
+            <br>
+            Осторожно, не спеша,<br>
+            С белым ветром на груди,<br>
+            Где у вмерзшей в лед ладьи<br>
+            Ждет озябшая душа.<br>
+            <br>
+            Припев:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Играй как можешь сыграй, закрой глаза и вернись<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Не пропади, но растай, да колее поклонись<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Мое окно отогрей, пусти по полю весной<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Не доживи, но созрей и будешь вечно со мной,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;И будешь вечно со мной, и будешь вечно...<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Со мной... Со мной...
+        ]]></item>
+        <item><![CDATA[
+        <b>Потерянный рай</b>
+        ]]></item>
+        <item>Это всё</item>
+        <item>Батарейка</item>
+        <item>Дыхание</item>
+        <item>Оркестр</item>
+        <item>Зоопарк</item>
+        <item>Перевал</item>
+        <item>А мы не ангелы парень</item>
+        <item>Воины света</item>
+        <item>Капитал</item>
+        <item>Выхода нет</item>
+        <item>Алые паруса</item>
+        <item>Яхта, парус</item>
+        <item>Гори</item>
+        <item>Моё сердце</item>
+        <item>Муравейник</item>
+        <item>Просвистела</item>
+        <item>Я верю</item>
+        <item>Мой кот</item>
+    </string-array>
+
+</resources>
