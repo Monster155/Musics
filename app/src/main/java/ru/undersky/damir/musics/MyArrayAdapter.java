@@ -49,7 +49,6 @@ public class MyArrayAdapter extends ArrayAdapter<Model> {
         // Изменение иконки для Windows и iPhone
         //String s = names[position].getName();
 
-
         return rowView;
     }
 }

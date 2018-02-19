@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ru.undersky.damir.musics.CheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:descendantFocusability="blocksDescendants"
@@ -17,8 +17,10 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/checkBox"
         android:layout_weight="0"
-        android:textSize="15sp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="15sp" />
 
-</LinearLayout>
+</ru.undersky.damir.musics.CheckableRelativeLayout>
