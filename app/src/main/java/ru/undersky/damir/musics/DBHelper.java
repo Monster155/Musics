@@ -14,7 +14,7 @@ import java.io.OutputStream;
 public class DBHelper extends SQLiteOpenHelper {
     private static String DB_NAME = "musics.db";
     private static String DB_PATH = "";
-    private static final int DB_VERSION = 3;
+    private static final int DB_VERSION = 1;
 
     private SQLiteDatabase mDataBase;
     private final Context mContext;
