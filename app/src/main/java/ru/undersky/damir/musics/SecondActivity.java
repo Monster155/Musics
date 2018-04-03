@@ -48,9 +48,9 @@ public class SecondActivity extends Activity {
     }
 
     public void textV(){
-        tv1 = findViewById(R.id.textView1);
-        tv2 = findViewById(R.id.textView2);
-        tv3 = findViewById(R.id.textView3);
+        tv1 = (TextView) findViewById(R.id.textView1);
+        tv2 = (TextView) findViewById(R.id.textView2);
+        tv3 = (TextView) findViewById(R.id.textView3);
 
         tv1.setText("Название: "+song);
         tv2.setText("Исполнитель: "+ author);

@@ -1,6 +1,7 @@
 package ru.undersky.damir.musics;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.io.IOException;
@@ -17,17 +19,31 @@ import java.util.ArrayList;
 public class MainActivity extends Activity {
 
     ListView lv;
-    ArrayList<String> names = new ArrayList<>();
+    ArrayList<String> names = new ArrayList<String>();
     private DBHelper dbh;
     private SQLiteDatabase db;
+    public Cursor cursor;
+
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        btn = findViewById(R.id.button2);
+
         dataB();
         listV();
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, SlidingTabs.class);
+                i.putExtra("cur", cursor.getCount());
+                startActivity(i);
+            }
+        });
     }
 
     public void dataB(){
@@ -38,7 +54,7 @@ public class MainActivity extends Activity {
         try { db = dbh.getWritableDatabase();
         } catch (SQLException mSQLException) {throw mSQLException;}
 
-        Cursor cursor = db.rawQuery("SELECT * FROM songs", null);
+        cursor = db.rawQuery("SELECT * FROM songs", null);
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
             names.add(cursor.getString(1) + " - " + cursor.getString(0));
@@ -48,9 +64,9 @@ public class MainActivity extends Activity {
     }
 
     public void listV(){
-        lv = findViewById(R.id.listView);
+        lv = (ListView) findViewById(R.id.listView);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, names);
 
         lv.setAdapter(adapter);
