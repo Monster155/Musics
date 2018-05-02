@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ads();
+        //ads();
 
         dbh = new DBHelper(this);
         lv = (ListView) findViewById(R.id.listView);
@@ -61,7 +61,8 @@ public class MainActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View itemClicked, int position, long id) {
                 Intent i = new Intent(MainActivity.this, SlidingTabs.class);
-                i.putExtra("cur", new int[]{position, cursor.getCount()});
+                i.putExtra("pos", position);
+                i.putExtra("cur", cursor.getCount());
                 startActivity(i);
             }
         });

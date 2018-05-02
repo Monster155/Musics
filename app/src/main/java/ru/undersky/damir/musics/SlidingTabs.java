@@ -32,7 +32,7 @@ public class SlidingTabs extends AppCompatActivity{
 
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-        mViewPager.setCurrentItem(getIntent().getIntArrayExtra("cur")[0]);
+        mViewPager.setCurrentItem(getIntent().getIntExtra("pos", 0));
     }
 
     public static class PlaceholderFragment extends Fragment {
@@ -77,15 +77,6 @@ public class SlidingTabs extends AppCompatActivity{
 
             cursor.close();
 
-            //String song = cursor.getString(1);
-            //String author = cursor.getString(0);
-            //String text = cursor.getString(2);
-            //tv1.setText("Название: "+song);
-            //tv2.setText("Исполнитель: "+author);
-            //tv3.setText(text);
-
-            //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
-
             return rootView;
         }
 
@@ -104,7 +95,7 @@ public class SlidingTabs extends AppCompatActivity{
 
         @Override
         public int getCount() {
-            int r = getIntent().getIntArrayExtra("cur")[1];
+            int r = getIntent().getIntExtra("cur", 0);
             return r;
         }
     }
