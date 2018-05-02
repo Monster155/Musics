@@ -32,7 +32,7 @@ public class SlidingTabs extends AppCompatActivity{
 
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-        mViewPager.setCurrentItem(6);
+        mViewPager.setCurrentItem(getIntent().getIntArrayExtra("cur")[0]);
     }
 
     public static class PlaceholderFragment extends Fragment {
@@ -104,7 +104,7 @@ public class SlidingTabs extends AppCompatActivity{
 
         @Override
         public int getCount() {
-            int r = getIntent().getIntExtra("cur", 0);
+            int r = getIntent().getIntArrayExtra("cur")[1];
             return r;
         }
     }
