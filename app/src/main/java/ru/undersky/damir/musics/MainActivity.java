@@ -79,4 +79,8 @@ public class MainActivity extends Activity {
             }
         });
     }
+
+    public DBHelper getDBH() {
+        return dbh;
+    }
 }
